@@ -9,11 +9,34 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var primerVisita : Bool = false
 
+    
+    @IBAction func PizaChica(sender: AnyObject) {
+        pizza.setTamaño("Chica")
+    }
+    
+    @IBAction func pizzaMediana(sender: AnyObject) {
+        pizza.setTamaño("Mediana")
+    }
+    
+    @IBAction func pizzaGrande(sender: AnyObject) {
+        pizza.setTamaño("Grande")
+    }
+    
+    
+    override func viewWillAppear(animated: Bool) {
+
+    }
+    
+    @IBAction func Ordenar(sender: AnyObject) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //primerVisita=true
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92124E521C6C5AA100F733C8 /* myPizzaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92124E511C6C5AA100F733C8 /* myPizzaClass.swift */; };
+		92124E541C6CEE0F00F733C8 /* vistaMasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92124E531C6CEE0F00F733C8 /* vistaMasaViewController.swift */; };
+		92124E561C6D0C2100F733C8 /* vistaQuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92124E551C6D0C2100F733C8 /* vistaQuesoViewController.swift */; };
+		92124E581C6D0E5400F733C8 /* vistaIngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92124E571C6D0E5400F733C8 /* vistaIngredientesViewController.swift */; };
+		921561DB1C77D1750035F7A0 /* vistaPedidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921561DA1C77D1750035F7A0 /* vistaPedidoViewController.swift */; };
 		92B4C12A1C6B046700D590D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4C1291C6B046700D590D5 /* AppDelegate.swift */; };
 		92B4C12C1C6B046700D590D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4C12B1C6B046700D590D5 /* ViewController.swift */; };
 		92B4C12F1C6B046700D590D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B4C12D1C6B046700D590D5 /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92124E511C6C5AA100F733C8 /* myPizzaClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPizzaClass.swift; sourceTree = "<group>"; };
+		92124E531C6CEE0F00F733C8 /* vistaMasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaMasaViewController.swift; sourceTree = "<group>"; };
+		92124E551C6D0C2100F733C8 /* vistaQuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = vistaQuesoViewController.swift; path = ../vistaQuesoViewController.swift; sourceTree = "<group>"; };
+		92124E571C6D0E5400F733C8 /* vistaIngredientesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaIngredientesViewController.swift; sourceTree = "<group>"; };
+		921561DA1C77D1750035F7A0 /* vistaPedidoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaPedidoViewController.swift; sourceTree = "<group>"; };
 		92B4C1261C6B046700D590D5 /* MyPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B4C1291C6B046700D590D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B4C12B1C6B046700D590D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +110,14 @@
 				92B4C1291C6B046700D590D5 /* AppDelegate.swift */,
 				92B4C12B1C6B046700D590D5 /* ViewController.swift */,
 				92B4C12D1C6B046700D590D5 /* Main.storyboard */,
+				92124E511C6C5AA100F733C8 /* myPizzaClass.swift */,
 				92B4C1301C6B046700D590D5 /* Assets.xcassets */,
 				92B4C1321C6B046700D590D5 /* LaunchScreen.storyboard */,
 				92B4C1351C6B046700D590D5 /* Info.plist */,
+				92124E531C6CEE0F00F733C8 /* vistaMasaViewController.swift */,
+				92124E551C6D0C2100F733C8 /* vistaQuesoViewController.swift */,
+				92124E571C6D0E5400F733C8 /* vistaIngredientesViewController.swift */,
+				921561DA1C77D1750035F7A0 /* vistaPedidoViewController.swift */,
 			);
 			path = MyPizza;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92124E541C6CEE0F00F733C8 /* vistaMasaViewController.swift in Sources */,
+				921561DB1C77D1750035F7A0 /* vistaPedidoViewController.swift in Sources */,
 				92B4C12C1C6B046700D590D5 /* ViewController.swift in Sources */,
 				92B4C12A1C6B046700D590D5 /* AppDelegate.swift in Sources */,
+				92124E521C6C5AA100F733C8 /* myPizzaClass.swift in Sources */,
+				92124E561C6D0C2100F733C8 /* vistaQuesoViewController.swift in Sources */,
+				92124E581C6D0E5400F733C8 /* vistaIngredientesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,7 @@
 				92B4C1501C6B046700D590D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92B4C1511C6B046700D590D5 /* Build configuration list for PBXNativeTarget "MyPizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				92B4C1531C6B046700D590D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92B4C1541C6B046700D590D5 /* Build configuration list for PBXNativeTarget "MyPizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				92B4C1561C6B046700D590D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
