@@ -19,6 +19,7 @@
 		92B4C1341C6B046700D590D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B4C1321C6B046700D590D5 /* LaunchScreen.storyboard */; };
 		92B4C13F1C6B046700D590D5 /* MyPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4C13E1C6B046700D590D5 /* MyPizzaTests.swift */; };
 		92B4C14A1C6B046700D590D5 /* MyPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4C1491C6B046700D590D5 /* MyPizzaUITests.swift */; };
+		92BBC1DF1C84F0F0005FB34F /* vistaCambiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BBC1DE1C84F0F0005FB34F /* vistaCambiosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		92B4C1451C6B046700D590D5 /* MyPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B4C1491C6B046700D590D5 /* MyPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPizzaUITests.swift; sourceTree = "<group>"; };
 		92B4C14B1C6B046700D590D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BBC1DE1C84F0F0005FB34F /* vistaCambiosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaCambiosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				92B4C1291C6B046700D590D5 /* AppDelegate.swift */,
 				92B4C12B1C6B046700D590D5 /* ViewController.swift */,
 				92B4C12D1C6B046700D590D5 /* Main.storyboard */,
+				92BBC1DE1C84F0F0005FB34F /* vistaCambiosViewController.swift */,
 				92124E511C6C5AA100F733C8 /* myPizzaClass.swift */,
 				92B4C1301C6B046700D590D5 /* Assets.xcassets */,
 				92B4C1321C6B046700D590D5 /* LaunchScreen.storyboard */,
@@ -277,6 +280,7 @@
 				92B4C12A1C6B046700D590D5 /* AppDelegate.swift in Sources */,
 				92124E521C6C5AA100F733C8 /* myPizzaClass.swift in Sources */,
 				92124E561C6D0C2100F733C8 /* vistaQuesoViewController.swift in Sources */,
+				92BBC1DF1C84F0F0005FB34F /* vistaCambiosViewController.swift in Sources */,
 				92124E581C6D0E5400F733C8 /* vistaIngredientesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
